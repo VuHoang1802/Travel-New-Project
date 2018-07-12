@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{font-family: Arial;font-size: 15px;color: #222;}
+a{text-decoration: none;color: #000000;}
+li{list-style: none;}
+.container{width: 1140px;margin: 0px auto;}
+.logo {float: left;margin-top: 16px;}
+.logo span{color: #03C700;font-size: 2em;}
+.logo strong{color: #000000;font-size: 3em;}
+.mainTop{float: right;}
+.contactTop{line-height: 2.2em; margin-top: 26px }
+.contactTop ul { text-align: right;}
+.contactTop li{display: inline-block; margin-left: 12px}
+.Top { line-height: 2em; padding: 10px 0; overflow-y: hidden; }
+.mainTop .Top {float: right;display: inline-block;margin-top: 30px;}
+.mainTop .Top .public{float: right; margin-left: 3em;}
+.mainTop .Top .public li{display: inline-block; padding: 0 3px ;}
+.Top .public li a:hover { color: #82b62d }
+.mainTop .Top nav {float: left;}
+.mainTop .Top nav li{display: inline-block;margin-right: 20px;font-size: 20px;}
+.mainTop .Top nav li a:hover{color: #03C700;}
+.slider div ul{margin: 0px auto;}
+.abv{background: url(../images/1.jpg) no-repeat center; height: 580px; clear: both;}
+.sectionMain {padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+.sectionSlider {background: #fff url(../images/1.jpg) no-repeat center; background-size: cover; clear: both; height: 580px;}
+.slider {padding: 3em;}
+.slider .ContentSlider {text-align: center; color: #fff;}
+.slider .ContentSlider h5 {font-size: 2em; letter-spacing: 0.4em}
+.slider .ContentSlider h2 {font-size: 5em;}
+.slider .ContentSlider p {font-size: 1em; margin: 20px; max-width: 500px; margin: 20px auto; line-height: 2em;}
+.sectionMain a {background-color:#03C700; padding: 8px; margin-top: 20px;}
+.slider .ContentSlider a:hover {background-color:#A60707;}
+.navSlider {display: block; text-align: center; margin-top: 6em;}
+.navSlider li {display: inline-block; margin: 5px;}
+.navSlider li button { width: 20px; height: 20px; border-radius: 100%; background-color: #82b62d;}
+.navSlider li button:hover {background-color: #de4c1d;}
+.navSlider li.active a {background-color: #82b62d;}
+.sectionWelcome div{}
+.sectionWelcome .Welcome{font-size: 3em; letter-spacing: 0.2em; margin: 0px auto;text-transform: uppercase; font-weight: 500; text-align: center; display: block;}
+.sectionWelcome div h6{text-align: left; margin-left: 100px;}
+.sectionWelcome article {clear: both;}
+.sectionWelcome article .Thumbart{display: block; max-width: 460px; float: left; margin-right: 30px;}
+.sectionWelcome article:nth-child(2n+1) .Thumbart{float: right; margin-left: 30px;}
+.sectionWelcome article .Thumbart img{display: block; max-width: 100%;}
+.sectionWelcome article h3{font-size: 1.5em; padding-top: 1.5em;}
+.sectionWelcome article p{margin: 1em auto; line-height: 1.5em;}
+.sectionServices{background-color: #f0f5f8;}
+.sectionServices ul{overflow: hidden;}
+.sectionServices ul li{width: 350px; height: 250px; background-color: #FFFFFF; margin:15px 15px; display: block; float: left}
+.Khoi {margin: 0px auto;width: 1140px; max-width: 100%;}
+.sectionServices .ServiceContent {font-size: 3em; text-align: center; display: block; letter-spacing: 0.2em;}
+.sectionServices ul li {text-align: center; display: block;}
+.sectionServices ul li:hover a i{background-color:#03C700; }
+.sectionServices ul li a {background-color: #FFFFFF; clear: both;}
+.sectionServices ul li a i{ padding: 15px; background-color:#FFFFFF; margin-top: 0.5em; }
+.sectionServices ul li p{ width: 300px; height: 100px;display: block; margin: 10px auto;}
+.sectionServices h5 {font-size: 1.2em; display: block; margin: 0px auto; margin: 5px 0px;}
+
+
+.sectionNews {background-color:#f0f5f8; margin: 5px auto;}
+.sectionNews label{font-size: 3em; text-align: center; display: block; letter-spacing: 0.2em;margin-bottom: 10px;}
+.sectionNews .Thumbart{float: left; margin-right: 2em;}
+.sectionNews ul li{display: inline-block; margin-right: 2em;}
+.sectionNews h3{ font-size: 3em; display: block; margin: 1em 0px;}
+.sectionNews article a:hover{background-color:#de4c1d; }
+
+.sectionSubs{background-image: url(images/5.jpg);}
+.sectionSubs .labelSection{font-size: 3em; text-align: center; display: block; letter-spacing: 0.2em;}
+.sectionSubs .subCont {text-align: center;}
+.sectionSubs .subCont input{line-height: 34px;background-color: #fff;padding: 3px 10px;width: 360px;max-width: calc(100% - 60px);}
+.sectionSubs .subCont button{line-height: 38px;height: 44px;width: 48px;color: #fff;background-color: #82b62d;border: none;cursor: pointer;}
+.footer .footerNoiDung{float: left;}
+.footer .footerNoiDung h3{margin: 2em auto;}
+.footer .footerNoiDung p{margin: 1em auto;}
+.footer .footerNoiDung ul li{margin: 0.6em auto;}
+.footerContent{width: 400px;}
+.Navigation {margin-left: 2em;}
+.copyright {clear: both; background-color: #262626; height: 40px; text-align: center;}
+.copyright span {color: #fff; margin: auto 0px; display: block;}
+.copyright a {color: #fff;margin: auto 0px; display: block;}
+
+.adsFix{width: 320px; height: 240px; background-color: #8C0002; position: fixed; right: 1px; bottom: 0px;}
+.adsFix .MenuBTN .ExitAds{float: right; width: 30px; height: 30px;}
+.adsFix span {text-align: center; display: block; color: #Fff;}

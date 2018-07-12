@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sectionMains{padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+.Banner {background: #fff url(images/BGcodes.jpg) no-repeat center; background-size: cover; height: 480px; position: relative;}
+.Banner h1{color: #fff; margin: auto 0px; display: block; text-transform: uppercase; font-size: 3em; border:8px solid #fff; padding: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; opacity: 0}
+.Banner:hover h1{opacity: 1; transition: 0.8;}
+.ContentHeader{text-align: center; font-size: 1.5em; display: block; padding: 20px; font-family: UTM Helve;}
+.container .Row {height: 240px; margin-top: 10px;}
+.Row .Product{width: 280px; float: left; margin-left: 5px; position: relative; overflow: hidden;}
+.Row .Product .LayerBlack {background-color: #000000; width: 280px; height: 186px; position: absolute; left: 0px; top: 0px; opacity: 0}
+.Row .Product:hover .LayerBlack{opacity: 0.7; transition: 0.8}
+.Row .Product .LayerBlack h3 , .Row .Product .LayerBlack span{color: #FFFFFF; padding: 10px;}
+.ADSbanner{position: relative;}
+.ADSbanner .Ads{position: fixed;width: 1920px; height: 1080px; background-color: #000000; right: 0px; top: 0px; opacity: 0.7}

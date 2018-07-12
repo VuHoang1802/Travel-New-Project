@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.sectionMains {padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+.Content .Menu{background-color: #1a1a1a; height: 500px; width: 200px; line-height: 2em; color: #fff;float: left;}
+.Content .Menu span{text-transform: uppercase; font-size: 1.5em; display: block; margin-left: 10px;}
+.Content a {color: #fff; display: block; margin-left: 10px;}
+.Content .ContentChild{width: 940px; background-color: #E4E4E4; float: right;}
+.Content .ContentChild .Time{width: 58px; height: 130px; background-color: #03C700; margin-left: 50px; text-align: center; float: left;}
+.Content .ContentChild .Time span{text-transform: uppercase; font-size: 1.5em; display: block;}
+.Content .ContentChild .Time i{margin-top: 20px; color: #000000;}
+.Content .ContentChild .header{margin-left: 150px; margin-top: 50px;display: block;}
+.Content .ContentChild .header h1{color: #000000;}
+.Content .ContentChild .header span{color: #000000; font-style: italic;}
+.Content .ContentChild .header i{color: #000000;}
+.Content .ContentChild .Doanvan{clear: both; width: 850px; display: block; margin-left: 20px;}
+.Content .ContentChild .Doanvan p {color: #000000;}
+.Content .ContentChild .Doanvan .video {margin: 0px auto; display: block;}
+.Content .ContentChild .Doanvan img {width: 800px; margin: 0px auto; display: block;}
